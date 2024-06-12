@@ -1,0 +1,8 @@
+
+all: main src1 src2
+
+main: main.c
+	gcc -o $@ $<
+
+src?: src?.c
+	gcc -o $@ $<

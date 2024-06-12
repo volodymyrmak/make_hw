@@ -1,0 +1,11 @@
+
+all: main src1 src2
+
+main: main.c
+	gcc -o main main.c
+
+src1: src1.c
+	gcc -o src1 src1.c
+
+src2: src2.c
+	gcc -o src2 src2.c
